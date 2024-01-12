@@ -1,0 +1,48 @@
+.vl {
+  border-left: 2px solid black;
+  height: 500px;
+}
+#restore {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#restore td, #restore th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#restore tr:nth-child(even){background-color: #f2f2f2;}
+
+#restore tr:hover {background-color: #ddd;}
+
+#restore th {
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+button{
+margin-left: 450px;
+}
+
+.page-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.input-group {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.restock-success {
+  color: #2C9E0B;
+  text-align: center;
+  padding: 20px;
+}
+
+.submit-button {
+  align-content: center;
+}

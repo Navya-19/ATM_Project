@@ -1,0 +1,31 @@
+
+<mat-drawer-container class="example-container">
+  <app-header></app-header>
+  <mat-drawer mode="side" opened>
+    <!-- <ul>
+      <li><a class="active" href="/dashboard" style="margin-top: 20px;" routerLink="/dashboard">DashBoard</a></li>
+      <li><a href="/withdraw" routerLink="/withdraw">Withdraw</a></li>
+      <li><a href="/restore" routerLink="/restore">Restore</a></li>
+      <li><a href="">Clear All</a></li>
+    </ul> -->
+
+    <mat-list style="margin-top:40px">
+      <mat-list-item><a href="/dashboard" routerLink='/dashboard' style="text-decoration: none;"> Dashboard</a></mat-list-item>
+      <mat-list-item><a href="/withdraw" routerLink='/withdraw' style="text-decoration: none;"> Withdraw</a></mat-list-item>
+      <mat-list-item><a href="/restore" routerLink='/restore' style="text-decoration: none;">Restore</a></mat-list-item>
+      <mat-list-item><a href="" routerLink='/clear' style="text-decoration: none;">ClearAll</a></mat-list-item>
+    </mat-list>
+
+  </mat-drawer>
+  <router-outlet></router-outlet>
+</mat-drawer-container>
+<div class="divider">
+</div>
+
+
+<!-- <ul>
+  <li><a class="active" href="/dashboard" style="margin-top: 20px;" routerLink="/dashboard">DashBoard</a></li>
+  <li><a href="/withdraw" routerLink="/withdraw">Withdraw</a></li>
+  <li><a href="/restore" routerLink="/restore">Restore</a></li>
+  <li><a href="">Clear All</a></li>
+</ul> -->

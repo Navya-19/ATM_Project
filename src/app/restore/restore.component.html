@@ -1,0 +1,44 @@
+<form formGroup="restockForm" (submit)="restock()" class="atm-restock">
+
+<div style="margin-left:20%;padding:1px 16px;">
+<table id="restore">
+  <tr>
+    <th>#</th>
+    <th>Denominations</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>$1.00</td>
+    <td><input type="number" formControlName='amountOne' class="form-control"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>$5.00</td>
+    <td><input type="number" vformControlName='amountFive' class="form-control"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>$10.00</td>
+    <td><input type="number" formControlName='amountTen' class="form-control"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>$20.00</td>
+    <td><input type="number" formControlName='amountTwenty' class="form-control"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>$50.00</td>
+    <td><input type="number" formControlName='amountFifty' class="form-control"></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>$100.00</td>
+    <td><input type="number" formControlName='amountHundread' class="form-control"></td>
+  </tr>
+</table>
+<br>
+<button class="btn btn-primary">Submit</button>
+</div>
+</form>
